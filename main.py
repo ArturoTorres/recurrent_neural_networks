@@ -25,7 +25,7 @@ folder_current = os.getcwd()
 folder_base = os.path.dirname(folder_current)
 folder_projects = os.path.dirname(folder_base)
 
-folder_data = folder_base + '/ds_task'
+folder_data = folder_current + '/datasets'
 folder_output = folder_current + '/output'
 
 # execute data_2020_2021

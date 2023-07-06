@@ -39,7 +39,7 @@ def my_subplot(df, file_name):
     import matplotlib.pyplot as plt
 
     fig = plt.figure(figsize=(16*10, 9*5))
-    fig.suptitle('Ceutorhynchus pallidactylus -- First Migration -- Reuler', fontsize=120)
+    fig.suptitle('My title here...', fontsize=120)
 
     def my_fonts(ax):
         ax.set_xlabel('Date', fontsize=120)
